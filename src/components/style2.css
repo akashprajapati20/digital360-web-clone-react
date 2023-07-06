@@ -1,0 +1,21 @@
+.animation1{
+    animation-name: an;
+    animation-duration: 2s;
+    position: absolute;
+    top:80px;
+}
+
+
+@media (min-width: 1000px) and (max-width : 1800px){
+
+    @keyframes an {
+        0%{
+            top:500px;
+        }
+        100%{
+            top: 80px;
+        }
+        
+    }
+    
+    }
